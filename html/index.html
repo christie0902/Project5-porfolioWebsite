@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aneta Webbie Portfolio Page</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <nav>
+        <img class="logo" src="../img/logo.png" alt="logo">
+        <nav class="nav">
             <a href="aaa.com">HOME</a>
             <a href="aaa.com">SKILLS</a>
             <a class="nav__green" href="aaa.com">PORTFOLIO</a>
@@ -19,37 +22,38 @@
     </header>
 
     <div class="hero">
-        <h1>Hi, I am Aneta Webbie.</h1>
-        <h2>I'm a Full-stack Web Developer.</h2>
+        <div class="hero__text">
+            <h1>Hi, I am <span class="name">Christie Pham.</span></h1>
+            <h2>I'm a Full-stack Web Developer.</h2>
+        </div>
     </div>
 
     <div class="intro">
         <p>Let's work together to make <span class="bold">your product stand out</span>. I create beautiful and functional websites. I work with my clients step by step <span class="bold">from the idea stage until the fully functioning web application.</span></p>
     </div>
 
-
     <div class="circleLine">
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
     </div>
 
     <section class="process">
         <div class="process__content">
-            <div class="process_content_text">
+            <div class="process__content__text">
                 <h3>Discover</h3>
                 <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
             </div>
-            <div class="process_content_text">
+            <div class="process__content__text">
                 <h3>Design</h3>
                 <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
             </div>
-            <div class="process_content_text">
+            <div class="process__content__text">
                 <h3>Deploy</h3>
                 <p>We protoype and develop your product. We work together intensily to incorporate your feedback.</p>
             </div>
-            <div class="process_content_text">
+            <div class="process__content__text">
                 <h3>Be Ready</h3>
                 <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
             </div>
@@ -101,46 +105,40 @@
     </section>
 
     <section class="portfolio">
-        <h1>MY PORTFOLIO</h1>
-        <div class="portfolio__project">
-            <img src="" alt="project">
-            <p></p>
-            <h4></h4>
-        </div>
 
         <div class="portfolio__project">
-            <img src="" alt="project">
+            <img src="../img\project1.jpg" alt="project">
             <p>Website for a coffee shop. Student Project for the Coding Bootcamp Praha. Coded based on provided psd design.</p>
             <h4>Tech stack: HTML, CSS, Sass, Bootstrap</h4>
         </div>
 
         <div class="portfolio__project">
-            <img src="" alt="project">
+            <img src="../img\project2.jpg" alt="project">
             <p>Description of hackathon project #2. Description of hackathon project #2. Description of hackathon project #2.</p>
             <h4>Tech stack:</h4>
         </div>
 
         <div class="portfolio__project">
-            <img src="" alt="project">
+            <img src="../img\project3.jpg" alt="project">
             <p>Description of hackathon project #3. Description of hackathon project #3. Description of hackathon project #3.</p>
             <h4>Tech stack:</h4>
         </div>
 
 
         <div class="portfolio__project">
-            <img src="" alt="project">
+            <img src="../img\project4.jpg" alt="project">
             <p>Description of hackathon project #4. Description of hackathon project #4. Description of hackathon project #4.</p>
             <h4>Tech stack:</h4>
         </div>
 
         <div class="portfolio__project">
-            <img src="" alt="project">
+            <img src="../img\project5.jpg" alt="project">
             <p>Description of hackathon project #5. Description of hackathon project #5. Description of hackathon project #5.</p>
             <h4>Tech stack:</h4>
         </div>
 
         <div class="portfolio__project project_styled">
-            <img src="" alt="project">
+            <img src="../img\project6.jpg" alt="project">
             <p>Description of your Final Project. Description of your Final Project, including the tech stack.</p>
             <button>Explore</button>
         </div>
@@ -148,8 +146,8 @@
 
     <section class="about">
         <h1>ABOUT ME</h1>
-        <img src="" alt="profile image">
-        <p><span class="bold">My name is Aneta Webbie.</span> I am a full-stack web developer and enjoy learning new trends. <span class="bold">I am developing user interfaces in JavaScript and React and backend of my projects in PHP and Laravel.</span>
+        <img src="../img\profile.jpg" alt="profile image">
+        <p><span class="bold">My name is Christie Pham.</span> I am a full-stack web developer and enjoy learning new trends. <span class="bold">I am developing user interfaces in JavaScript and React and backend of my projects in PHP and Laravel.</span>
         <br><br>
         I am open to learning new technologies and enjoy working with people <span class="underline">who are as passionate about all web-related as me.</span>
         <br>
@@ -199,7 +197,7 @@
             <i></i>
             <i></i>
         </div>
-        <p>Copyright @Aneta Webbie 2018</p>
+        <p>Copyright @Christie Pham 2024</p>
     </footer>
 </body>
 </html>
