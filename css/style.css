@@ -135,3 +135,68 @@ nav {
     text-align: center;
     padding-inline: 50px;
 }
+
+
+/* Style Skill Section */
+
+.skill h1 {
+    color:#FF66C4;
+    font-size: 50px;
+    text-align: center;
+}
+
+.skill__bar__label {
+    font-size: 20px;
+    background-color: #232323;
+    color:#ebebeb;
+    width: 100px;
+    height: 6vh;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.skill__pink {
+    background-color:#FF66C4;
+    height: 6vh;
+}
+
+.skill__grey {
+    background-color:#dbdbdb;
+    height: 6vh;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.skill__bar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.skill__pink.skill_80 {
+    width: 80%;
+}
+
+.skill__pink.skill_70 {
+    width: 70%;
+}
+
+.skill__pink.skill_60 {
+    width: 60%;
+}
+
+.skill__pink.skill_50 {
+    width: 50%;
+}
+
+.skill__grey {
+    flex: 1;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15vw;
+}
