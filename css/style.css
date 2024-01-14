@@ -38,8 +38,14 @@ header {
 nav {
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
+    right:0;
+    z-index: 1;
+}
+
+.nav__pink {
+    background-color: #FF66C4;
 }
 
 /* Style Hero Section */
@@ -199,4 +205,94 @@ nav {
     display: flex;
     flex-direction: column;
     margin-inline: 15vw;
+    margin-bottom: 100px;
+}
+
+/* Style the portfolio section */
+
+.portfolio h1 {
+    color:#ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.portfolio {
+    background-color: #FF66C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.portfolio__layout {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio__layout__project img {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+.layout__project_text {
+    width: 330px;
+    background-color: #dbdbdb;
+    margin: 10px;
+}
+
+.layout__project_text h4 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.layout__project_text p {
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio__layout__project {
+    background-color: white;
+    margin-block: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+}
+
+.layout__project_text__style button {
+    background-color: #FF66C4;
+    text-align: center;
+    width: 300px;
+    border-radius: 6px;
+    padding-block: 5px;
+    box-shadow: 2px 5px rgb(65, 64, 64);
+}
+
+.portfolio__layout__project.project_styled {
+    border: 10px solid black;
+    padding: 0;
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__layout__project.project_styled img {
+    border-bottom: 7px solid black;
+    padding: 0;
+    width: 330px;
+    height: 200px;
+}
+
+.layout__project_text__style {
+    text-align: center;
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
 }
