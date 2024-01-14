@@ -338,3 +338,85 @@ nav {
     color: #ebebeb;
     font-size: 15px;
 }
+
+
+/* Style social section */
+.social {
+    background-color: #232323;
+    color:#ebebeb;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    height: 400px;
+}
+
+.icons i {
+    font-size: 100px;
+    margin-inline: 100px;
+    margin-top: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Style Contact form */
+.contact {
+    background-color: #FF66C4;
+    color: white;
+    height: 600px;
+}
+
+.contact h1 {
+    color:#ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 0;
+}
+
+form {
+    width: 60%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 20px;
+}
+
+.contact__name, .contact__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_name_input {
+    width: 45%;
+    border-bottom: 0.5px solid white;
+}
+
+form button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-block: 5px;
+}
+
+input {
+    border: none;
+    background-color:#FF66C4;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 2px 2px #c2c1c19d;
+}
