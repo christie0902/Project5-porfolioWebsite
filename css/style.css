@@ -270,6 +270,8 @@ nav {
     border-radius: 6px;
     padding-block: 5px;
     box-shadow: 2px 5px rgb(65, 64, 64);
+    color: white;
+    font-size: 15px;
 }
 
 .portfolio__layout__project.project_styled {
@@ -295,4 +297,44 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 300px;
+}
+
+/* Style about me section */
+
+.about h1 {
+    color:#FF66C4;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about_img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url('../img/profile.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 400px;
+    padding-bottom: 100px;
+}
+
+.about__content__text {
+    width: 40%;
+}
+
+.about__content button {
+    background-color: #FF66C4;
+    text-align: center;
+    width: 200px;
+    border-radius: 6px;
+    padding-block: 5px;
+    box-shadow: 2px 5px rgb(65, 64, 64);
+    color: #ebebeb;
+    font-size: 15px;
 }
