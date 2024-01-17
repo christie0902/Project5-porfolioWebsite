@@ -23,8 +23,8 @@ nav a{
     text-decoration: none;
     color: #ebebeb;
     background-color: #232323;
-    padding-block: 15px;
-    padding-inline: 100px;
+    padding-block: 5px;
+    padding-inline: 4vw;
     font-size: 20px;
 }
 
@@ -32,16 +32,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100vw;
 
 }
 
-nav {
+.nav {
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     right:0;
     z-index: 1;
+    max-width: 70vw;
 }
 
 .nav__pink {
@@ -320,8 +322,10 @@ nav {
 .about__content {
     display: flex;
     justify-content: space-around;
-    margin-inline: 300px;
+    margin-inline: 200px;
     padding-bottom: 100px;
+    max-width: 900px;
+    margin-inline: auto;
 }
 
 .about__content__text {
@@ -355,6 +359,7 @@ nav {
     font-size: 100px;
     margin-inline: 100px;
     margin-top: 40px;
+    max-width: 1000px;
 }
 
 .icons {
@@ -379,7 +384,7 @@ nav {
 }
 
 form {
-    width: 60%;
+    max-width: 60%;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -440,7 +445,7 @@ footer h1 {
     font-size: 50px;
     text-align: center;
     background-color: white;
-    width: 25%;
+    width: 40%;
     font-weight: bold;
     margin-inline: auto;
     position: relative;
