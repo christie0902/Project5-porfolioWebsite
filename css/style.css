@@ -351,16 +351,9 @@ header {
 }
 
 .icons i {
-<<<<<<< HEAD
   font-size: 100px;
   margin-inline: 100px;
   margin-top: 40px;
-=======
-    font-size: 100px;
-    margin-inline: 100px;
-    margin-top: 40px;
-    max-width: 1000px;
->>>>>>> c1c95f385cc8a61bebdde702227c7cef0a1db4f7
 }
 
 .icons {
