@@ -11,13 +11,19 @@
   
   header {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: flex-start;
       width: 100vw;
 
+      .menu {
+        display: none;
+        font-size: 5rem;
+        margin: 3rem;
+      }
+
       & .logo {
         width: 100px;
-        margin-left: 20px;
+        margin-right:auto;
       }
 
       & .nav {
@@ -40,3 +46,18 @@
       padding-inline: 3vw;
      }
   }
+
+  @media (max-width: $small-screen) {
+    header {
+      .nav {
+      display: none;
+      }
+      .menu {
+      display: block;
+      }
+      .logo {
+       width: 180px;
+      }
+    }
+  }
+ 

@@ -29,7 +29,30 @@
   }
 
   @media (max-width: $medium-screen) {
-    .process__content__text {
-        padding-inline: 30px;
+    .process {
+        height: 60vh;
+        &__content {
+            flex-wrap: wrap;
+            gap: 15%;
+            &__text {
+                padding-inline: 40px;
+                line-height: 1.5rem;
+            }
+        }
     }
+  }
+
+  @media (max-width: $small-screen) {
+    .process {
+        height: 60vh;
+        &__content {
+            flex-wrap: wrap;
+            gap: 3%;
+            &__text {
+                padding-inline: 40px;
+                line-height: 1.5rem;
+            }
+        }
+    }
+    
   }

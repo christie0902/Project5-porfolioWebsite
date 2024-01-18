@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .skill {
     display: flex;
     flex-direction: column;
@@ -48,3 +50,21 @@
           }
       }
   }
+
+  @media (max-width: $small-screen) {
+    .skill {
+      & .skill__bar {
+        & .skill__grey {
+        height: 5vh;
+        font-size: 20px;
+        padding-right: 10px;
+      }
+        & .skill__pink {
+        height: 5vh;
+      }
+        &__label {
+        height: 5vh;
+      }
+   }
+ }
+}

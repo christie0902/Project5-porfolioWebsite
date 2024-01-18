@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .social {
     background-color: #232323;
     color: #ebebeb;
@@ -17,3 +19,14 @@
       }
   }
   
+  @media (max-width: $small-screen) {
+    .social {
+        & .icons {
+            & i {
+                font-size: 4rem;
+                margin-inline: 3rem;
+                margin-top: 40px;
+              }
+          }
+      }
+  }
