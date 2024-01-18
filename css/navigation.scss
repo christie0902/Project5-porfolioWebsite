@@ -1,0 +1,35 @@
+
+  nav a{
+      text-decoration: none;
+      color: #ebebeb;
+      background-color: #232323;
+      padding-block: 5px;
+      padding-inline: 4vw;
+      font-size: 20px;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100vw;
+
+      & .logo {
+        width: 100px;
+        margin-left: 20px;
+      }
+
+      & .nav {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right:0;
+        z-index: 1;
+        max-width: 70vw;
+        &__pink {
+            background-color: #ff66c4;
+          }
+    }   
+  }
+  

@@ -1,0 +1,45 @@
+
+
+// Navigation style sheet
+@import "navigation.scss";
+
+// Hero style sheet
+@import "hero.scss";
+
+// Process style sheet
+@import "process.scss";
+
+// Circle style sheet
+@import "circle.scss";
+
+// Skill style sheet
+@import "skill.scss";
+
+// Portfolio style sheet
+@import "portfolio.scss";
+
+// About style sheet
+@import "about.scss";
+
+// Social style sheet
+@import "social.scss";
+
+// Footer style sheet
+@import "footer.scss";
+
+// Contact style sheet
+@import "contact.scss";
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+  }

@@ -1,0 +1,50 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15vw;
+    margin-bottom: 100px;
+    & h1 {
+        color: #ff66c4;
+        font-size: 50px;
+        text-align: center;
+      }
+    & .skill__bar {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        &__label {
+            font-size: 20px;
+            background-color: #232323;
+            color: #ebebeb;
+            width: 100px;
+            height: 6vh;
+            text-align: center;
+            padding-top: 15px;
+          }
+        & .skill__grey {
+            background-color: #dbdbdb;
+            height: 6vh;
+            font-size: 20px;
+            text-align: right;
+            padding-right: 20px;
+            padding-top: 15px;
+            flex: 1;
+          }
+        & .skill__pink {
+            background-color: #ff66c4;
+            height: 6vh;
+            &.skill_80 {
+                width: 80%;
+              }
+            &.skill_70 {
+                width: 70%;
+              }
+            &.skill_60 {
+                width: 60%;
+              }
+            &.skill_50 {
+                width: 50%;
+              }
+          }
+      }
+  }

@@ -1,0 +1,78 @@
+.portfolio {
+    background-color: #ff66c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    & h1 {
+        color: #ffffff;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+      }
+    &__layout {
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__project {
+            background-color: white;
+            margin-block: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            align-items: center;
+            & img {
+                width: 300px;
+                height: 200px;
+                padding: 10px;
+            }
+            & .layout__project_text {
+                width: 280px;
+                background-color: #dbdbdb;
+                margin: 10px;
+                & h4 {
+                padding-left: 20px;
+                padding-bottom: 10px;
+              }
+                & p {
+                text-align: center;
+                padding: 10px;
+              }
+                &__style {
+                    text-align: center;
+                    padding-inline: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 280px;
+                    & button {
+                        background-color: #ff66c4;
+                        text-align: center;
+                        width: 250px;
+                        border-radius: 6px;
+                        padding-block: 5px;
+                        box-shadow: 2px 5px 5px rgb(65, 64, 64);
+                        color: white;
+                        font-size: 15px;
+                      }
+                  }
+            }
+        
+            &.project_styled {
+                border: 10px solid black;
+                padding: 0;
+                background-color: #dbdbdb;
+                display: flex;
+                flex-direction: column;
+                & img {
+                    border-bottom: 7px solid black;
+                    padding: 0;
+                    width: 280px;
+                    height: 200px;
+                  }
+              }
+        }
+    }
+}

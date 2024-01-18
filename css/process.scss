@@ -1,0 +1,27 @@
+.process {
+    background-color: #232323;
+    height: 340px;
+    &__content {
+        display: flex;
+        margin-top: 30px;
+        padding-top: 80px;
+        justify-content: center;
+        &__text {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding-inline: 50px;
+
+            h3 {
+                color: #ff66c4;
+                font-size: 25px;
+              }
+            
+            p {
+                color: white;
+              }
+          }
+      }
+  }
