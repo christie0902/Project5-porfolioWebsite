@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .process {
     background-color: #232323;
     height: 340px;
@@ -24,4 +26,10 @@
               }
           }
       }
+  }
+
+  @media (max-width: $medium-screen) {
+    .process__content__text {
+        padding-inline: 30px;
+    }
   }
