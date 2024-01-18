@@ -1,0 +1,39 @@
+.about {
+    & h1 {
+        color: #ff66c4;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 100px;
+        }
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-inline: 200px;
+        padding-bottom: 100px;
+        max-width: 900px;
+        margin-inline: auto;
+        &__text {
+            width: 40%;
+          }
+        & button {
+            background-color: #ff66c4;
+            text-align: center;
+            width: 200px;
+            border-radius: 6px;
+            padding-block: 5px;
+            box-shadow: 2px 5px 5px rgb(65, 64, 64);
+            color: #ebebeb;
+            font-size: 15px;
+            margin-top: 10px;
+          }
+    }
+    &_img {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-image: url("../img/profile.jpg");
+        background-size: cover;
+        overflow: hidden;
+      }
+}

@@ -1,0 +1,37 @@
+.hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    font-size: 2rem;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: rgba(44, 41, 41, 0.363);
+    &__text {
+        width: 600px;
+        &_name {
+            color: #ff66c4;
+            text-decoration: solid;
+          }
+      }
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    & p {
+        text-align: center;
+        width: 900px;
+        padding-block: 20px;
+        font-size: 20px;
+        font-style: normal;
+        letter-spacing: 0.5px;
+      }
+    & .bold {
+        font-weight: bold;
+      }
+  }

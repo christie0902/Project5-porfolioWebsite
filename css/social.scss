@@ -1,0 +1,19 @@
+.social {
+    background-color: #232323;
+    color: #ebebeb;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    height: 400px;
+    & .icons {
+        display: flex;
+        justify-content: center;
+        & i {
+            font-size: 100px;
+            margin-inline: 100px;
+            margin-top: 40px;
+          }
+          
+      }
+  }
+  
