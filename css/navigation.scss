@@ -1,63 +1,77 @@
 @import "variables.scss";
 
-  nav a{
-      text-decoration: none;
-      color: #ebebeb;
-      background-color: #232323;
-      padding-block: 5px;
-      padding-inline: 4vw;
-      font-size: 20px;
-  }
-  
-  header {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      width: 100vw;
+nav a {
+  text-decoration: none;
+  color: #ebebeb;
+  background-color: #232323;
+  padding-block: 5px;
+  padding-inline: 4vw;
+  font-size: 20px;
+}
 
-      .menu {
-        display: none;
-        font-size: 5rem;
-        margin: 3rem;
-      }
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100vw;
 
-      & .logo {
-        width: 100px;
-        margin-right:auto;
-      }
-
-      & .nav {
-        display: flex;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right:0;
-        z-index: 1;
-        max-width: 70vw;
-        &__pink {
-            background-color: #ff66c4;
-          }
-    }   
-  }
-  
-
-  @media (max-width: $medium-screen) {
-     .nav a {
-      padding-inline: 3vw;
-     }
+  .menu {
+    display: none;
+    font-size: 5rem;
+    margin: 3rem;
   }
 
-  @media (max-width: $small-screen) {
-    header {
-      .nav {
-      display: none;
-      }
-      .menu {
-      display: block;
-      }
-      .logo {
-       width: 180px;
-      }
+  & .logo {
+    width: 100px;
+    margin-right: auto;
+  }
+
+  & .nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    max-width: 70vw;
+    &__pink {
+      background-color: #ff66c4;
     }
   }
- 
+}
+
+.mobile-menu {
+  display: none;
+  padding-top: 40px;
+  background-color: #ff66c4;
+  height: 100vh;
+  text-align: center;
+  line-height: 6rem;
+  width: 100vw;
+  & li {
+    list-style: none;
+    font-size: 3rem;
+    color: white;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: $medium-screen) {
+  .nav a {
+    padding-inline: 3vw;
+  }
+}
+
+@media (max-width: $small-screen) {
+  header {
+    .nav {
+      display: none;
+    }
+    .menu {
+      display: block;
+    }
+    .logo {
+      width: 180px;
+    }
+  }
+}
