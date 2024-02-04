@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/f019794326.js" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header id="home">
@@ -37,7 +39,7 @@
     <div class="hero">
         <div class="hero__text">
             <h1>Hi, I am <span class="hero__text_name">Christie Pham.</span></h1>
-            <h2>I'm a Full-stack Web Developer.</h2>
+            <h2 data-aos="zoom-in-up">I'm a Full-stack Web Developer.</h2>
         </div>
     </div>
 
@@ -122,7 +124,7 @@
     
         <div class="portfolio__layout">
 
-            <div class="portfolio__layout__project">
+            <div class="portfolio__layout__project" data-aos="fade-up">
                     <img src="img\project1.jpg" alt="project">
                     <div class="layout__project_text">
                         <p>Website for a coffee shop. Student Project for the Coding Bootcamp Praha. Coded based on provided psd design.</p>
@@ -131,7 +133,7 @@
             </div>
     
 
-            <div class="portfolio__layout__project">
+            <div class="portfolio__layout__project" data-aos="fade-up">
                 <img src="img\project2.jpg" alt="project">
                 <div class="layout__project_text">
                     <p>Description of hackathon project #2. Description of hackathon project #2. Description of hackathon project #2.</p>
@@ -139,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="portfolio__layout__project">
+            <div class="portfolio__layout__project" data-aos="fade-up">
                 <img src="img\project3.jpg" alt="project">
                 <div class="layout__project_text">
                     <p>Description of hackathon project #3. Description of hackathon project #3. Description of hackathon project #3.</p>
@@ -148,7 +150,7 @@
             </div>
 
 
-            <div class="portfolio__layout__project">
+            <div class="portfolio__layout__project" data-aos="fade-up">
                 <img src="img\project4.jpg" alt="project">
                 <div class="layout__project_text">
                     <p>Description of hackathon project #4. Description of hackathon project #4. Description of hackathon project #4.</p>
@@ -156,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="portfolio__layout__project">
+            <div class="portfolio__layout__project" data-aos="fade-up">
                 <img src="img\project5.jpg" alt="project">
                 <div class="layout__project_text">
                     <p>Description of hackathon project #5. Description of hackathon project #5. Description of hackathon project #5.</p>
@@ -164,7 +166,7 @@
                 </div>
             </div>
 
-            <div class="portfolio__layout__project project_styled">
+            <div class="portfolio__layout__project project_styled" data-aos="fade-up">
                 <img src="img\project6.jpg" alt="project">
                 <div class="layout__project_text__style">
                     <p>Description of your Final Project. Description of your Final Project, including the tech stack.</p>
@@ -177,7 +179,7 @@
     <section class="about" id="about__section">
         <h1>ABOUT ME</h1>
         <div class="about__content">
-            <div class="about_img"></div>
+            <div class="about_img" data-aos="fade-down"></div>
             <div class="about__content__text">
                 <p><span class="bold">My name is Christie Pham.</span> I am a full-stack web developer and enjoy learning new trends. <span class="bold">I am developing user interfaces in JavaScript and React and backend of my projects in PHP and Laravel.</span>
                 <br><br><br>
@@ -204,7 +206,7 @@
 
     <section class="contact" id="contactForm">
         <h1>CONTACT ME</h1>
-        <form>
+        <form data-aos="fade-up">
             <div class="contact__name">
                 <div class="contact_name_input">
                     <!-- <label for="fname">First name*</label> -->
@@ -246,5 +248,7 @@
     </footer>
 
     <script src="./src/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
