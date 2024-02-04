@@ -44,7 +44,7 @@
 
   @media (max-width: $small-screen) {
     .process {
-        height: 60vh;
+        min-height: 100vh;
         &__content {
             flex-wrap: wrap;
             gap: 3%;

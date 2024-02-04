@@ -36,3 +36,24 @@
         font-weight: bold;
       }
   }
+
+
+  @media (max-width: $small-screen) {
+    .hero {
+      font-size: 1.5rem;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-blend-mode: overlay;
+      background-color: rgba(44, 41, 41, 0.363);
+      &__text {
+          min-width: 300px;
+          margin-left: auto;
+          &_name {
+              color: #ff66c4;
+              text-decoration: solid;
+            }
+        }
+    }
+  }

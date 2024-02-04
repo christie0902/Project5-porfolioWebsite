@@ -76,3 +76,16 @@
         }
     }
 }
+
+@media (max-width: $small-screen) {
+  .portfolio {
+    &__layout {
+        display: flex;
+        min-width: 70vw;
+        // margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+}
+}
+}
