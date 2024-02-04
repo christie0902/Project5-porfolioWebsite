@@ -41,7 +41,10 @@ header {
 }
 
 .mobile-menu {
-  display: none;
+  transition: 0.4s ease-in;
+  position: absolute;
+  left: 100vw;
+  display: hidden;
   padding-top: 40px;
   background-color: #ff66c4;
   height: 100vh;
@@ -54,6 +57,17 @@ header {
     color: white;
     padding-top: 2rem;
   }
+  & .close-icon {
+    position: relative;
+    top: 5vh;
+    left: 35vw;
+    width: 2rem;
+  }
+}
+
+.mobile-menu--active {
+  display: block;
+  left: 0vw;
 }
 
 @media (max-width: $medium-screen) {
